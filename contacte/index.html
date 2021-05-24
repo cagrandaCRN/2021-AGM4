@@ -1,0 +1,87 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta lang="es">
+    <meta author="AGM4 - Desi Aroma">
+    <meta name="viewport" content="width=device-width"/>
+
+    <link rel="stylesheet"  media="only screen and (min-width: 768px)" href="pc.css">
+    <link rel="stylesheet" media="only screen and (max-width: 424px)" href="mobil.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+    <title>Contacte</title>
+
+  </head>
+  <body>
+
+<!-- Menu  -->
+    <div class="nav">
+      <div id="menuToggle">
+        <input type="checkbox"/>
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <a href="#"><li>Entrants</li></a>
+          <a href="#"><li>Plats Principals</li></a>
+          <a href="#"><li>Postres</li></a>
+
+        </ul>
+      </div>
+        <div class="logo">DESI AROMA</div>
+          <nav>
+            <ul>
+              <li><a href="#">Contacte</a></li>
+              <li><a href="https://instagram.com/_desiaroma_?igshid=tz326ebg2zt9">Blog</a></li>
+            </ul>
+          </nav>
+      </div>
+
+
+  <!-- Caixes -->
+    <div class="contenedor">
+            <div id="boton"><a name="arriba"></a></div>
+              <h2>Connecting Cultures Through Food</h2>
+
+                  <h3>Contacte</h3>
+                    <div  id="caixa1">
+                      <p>¿Tienes alguna duda? ¿Quieres hacerme una sugerencia?<br></br> ¿Te apetece que colaboremos? Escríbeme a <br></br> <a href="#">desiaroma@gmail.com</a></p>
+
+                    </div>
+
+
+  <!-- cursor -->
+                  <div class="cursor"></div>
+                  <div class="cursor-lazy"></div>
+                      <script>
+                        "use script";
+                        (function(){
+                          var cursor = document.querySelector('.cursor');
+                          var cursorLazy = document.querySelector('.cursor-lazy');
+                          var links = document.querySelector('a');
+
+                          var editCursor = function editCursor (event){
+                            cursor.style.left = event.clientX +'px';
+                            cursor.style.top= event.clientY +'px';
+                            cursorLazy.style.left = event.clientX +'px';
+                            cursorLazy.style.top = event.clientY +'px';
+                          };
+                          window.addEventListener('mousemove', editCursor);
+                        })();
+                      </script>
+
+      </div>
+
+
+  <!-- Footer -->
+      <div id="footer"> Copy Right ** AGM 4 ** Curs 2020 - 2021 </div>
+
+        <div id="cercle"><a href="#arriba">volver</a></div>
+
+  </body>
+</html>
